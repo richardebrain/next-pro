@@ -4,6 +4,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screen:{
+       sm:'640px',
+       md:'768px',
+        lg:'1024px',
+        xl:'1280px',
+        
+
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -17,7 +25,8 @@ module.exports = {
       'bermuda': '#78dcca',
       'black': '#000000',
       'custom-blue':'#0070f3',
-      'custom-white':'#fafafa'
+      'custom-white':'#fafafa',
+      'borderLightGray': '#eaeaea',
     },
     extend: {
       
